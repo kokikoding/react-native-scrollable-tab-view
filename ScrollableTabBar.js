@@ -164,7 +164,7 @@ const ScrollableTabBar = createReactClass({
     } = this.props;
 
     return <View
-      style={[styles.container, {backgroundColor: this.props.backgroundColor, }, this.props.style ? his.props.style : undefined, ]}
+      style={[styles.container, {backgroundColor: this.props.backgroundColor, }, this.props.style ? this.props.style : undefined, ]}
       onLayout={this.onContainerLayout}
     >
       <ScrollView
